@@ -3,7 +3,7 @@ body {
       line-height: 1.8;
       color: #00ff7f;
 }
-#mynavbar{
+.mynavbar{
       padding-top:15px;
       padding-bottom:15px;
       border:0;
@@ -12,6 +12,6 @@ body {
       font-size:12px;
       letter-spacing:5px;
 }
-.mynavbar-nav ul a:hover{
+.mynavbar ul a:hover{
 color: #labc9c !important;
 }
