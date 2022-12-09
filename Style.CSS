@@ -41,11 +41,11 @@
 }
 .menu__btn > span::before {
   content: '';
-  top: -8px;
+  top: -80px;
 }
 .menu__btn > span::after {
   content: '';
-  top: 8px;
+  top: 80px;
 }
 .menu__box {
   display: block;
