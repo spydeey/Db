@@ -1,41 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 @import "compass/css3";
 
-.ham {
-  cursor: pointer;
-  -webkit-tap-highlight-color: transparent;
-  transition: transform 400ms;
-  -moz-user-select: none;
-  -webkit-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
-}
-.hamRotate.active {
-  transform: rotate(45deg);
-}
-.hamRotate180.active {
-  transform: rotate(180deg);
-}
-.line {
-  fill:none;
-  transition: stroke-dasharray 400ms, stroke-dashoffset 400ms;
-  stroke:#000;
-  stroke-width:5.5;
-  stroke-linecap:round;
-}
-.ham1 .top {
-  stroke-dasharray: 40 139;
-}
-.ham1 .bottom {
-  stroke-dasharray: 40 180;
-}
-.ham1.active .top {
-  stroke-dashoffset: -98px;
-}
-.ham1.active .bottom {
-  stroke-dashoffset: -138px;
-}
-
 /* Slide Bar*/
 
 #menu__toggle {
@@ -111,37 +76,6 @@
 .menu__item:hover {
   background-color: #CFD8DC;
 }
-
-/*
-
-.btn5 {
-  @include btn(0px, 200px);
-  .icon {
-    @include icon(8px, 60px);
-    &:before {
-      @include icon-before(8px, 60px, -20px);
-    }
-    &:after {
-      @include icon-after(8px, 60px, 20px);
-    }
-  }
-  &.open {
-    .icon {
-      transition: 0.5s;
-      &:before {
-        transform: rotateZ(-45deg) scaleX(0.75) translate(-20px, -6px);
-      }
-      &:after {
-        transform: rotateZ(45deg) scaleX(0.75) translate(-20px, 6px);
-      }
-    }
-  }
-  &:hover {
-    cursor: pointer;
-  }
-}
-
-*/
 
 /*Main Window*/
 
