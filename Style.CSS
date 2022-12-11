@@ -79,7 +79,7 @@
 
 /*Main Window*/
 
-.window{
+div.window{
    float:left;
    text-align:right;
    margin: 30px 4px 30px 4px;
