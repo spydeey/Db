@@ -4,6 +4,7 @@
 /* Slide Bar*/
 
 #menu__toggle {
+  display: inline-block;
   opacity: 0;
 }
 #menu__toggle:checked + .menu__btn > span {
