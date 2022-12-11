@@ -79,14 +79,14 @@
 
 /*Main Window*/
 
-#window{
+.window{
    display: inline-block;
    text-align: right;
    margin: 30px 4px 30px 4px;
    color: #339966;
    font-family: "Poppins", sans-serif;
 }
-#mainname{
+.mainname{
    display: inline-block;
    text-align: right;
    margin: 0px 40px 0px 0px;
