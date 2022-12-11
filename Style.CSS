@@ -80,7 +80,7 @@
 /*Main Window*/
 
 #window{
-   margin: 30px;
+   margin: 30px 4px 30px 4px;
    color: #339966;
    font-family: "Poppins", sans-serif;
 }
