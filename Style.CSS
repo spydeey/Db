@@ -79,7 +79,7 @@
 
 /*Main Window*/
 
-.window{
+#window{
    text-align:right;
    color: #339966;
    font-family: "Poppins", sans-serif;
