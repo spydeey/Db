@@ -75,6 +75,7 @@
 }
 .menu__item:hover {
   background-color: #CFD8DC;
+  color:#00ff7f;
 }
 
 /*Main Window*/
