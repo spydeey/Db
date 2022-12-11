@@ -88,7 +88,7 @@
 }
 div .mainname{
    display: inline-block;
-   text-align: right;
+   text-align:center;
    margin: 0px 40px 0px 0px;
    color: #339966;
 }
