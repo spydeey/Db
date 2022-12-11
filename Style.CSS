@@ -81,15 +81,9 @@
 
 .window{
    float:left;
-   text-align:center;
+   text-align:right;
    margin: 30px 4px 30px 4px;
    color: #339966;
-   font-family: "Poppins", sans-serif;
-}
-div.mainname{
-   text-align:center;
-   margin: 0px 40px 0px 0px;
-   color: #ffa600;
    font-family: "Poppins", sans-serif;
 }
 
