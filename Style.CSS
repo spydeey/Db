@@ -79,7 +79,7 @@
 
 /*Main Window*/
 
-#menu__toggle h1{
+.hamburger-menu h1{
    float:left;
    text-align:right;
    margin: 30px 4px 30px 4px;
