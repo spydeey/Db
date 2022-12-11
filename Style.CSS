@@ -4,7 +4,6 @@
 /* Slide Bar*/
 
 #menu__toggle {
-  display: inline-block;
   opacity: 0;
 }
 #menu__toggle:checked + .menu__btn > span {
@@ -86,5 +85,9 @@
    color: #339966;
    font-family: "Poppins", sans-serif;
 }
-
+#mainname{
+   display: inline-block;
+   margin: 30px 4px 30px 4px;
+   color: #339966;
+}
 
