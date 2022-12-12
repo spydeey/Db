@@ -99,3 +99,9 @@
     left:8px;
 }
 
+/*Foot Window*/
+
+#footwindow{
+    position:absolute;
+    top:800px;
+}
