@@ -80,7 +80,8 @@
 
 /*Main Window*/
 
-#window{
+.wnav{
+   overflow:hidden;
    position:absolute;
    top:35px;
    left:1px;
@@ -88,11 +89,26 @@
    height:90px;
    text-align:left;
    margin:1px;
-   background-color:#CCCCCC;
-   opacity:0.55;
-   color: #339966;
+   background-color:#999999;
    font-family: "Poppins", sans-serif;
 }
+.wnav a.mainname{
+    text-decoration:none;
+    color: #00ff7f
+}
+.wnav a.logbtn{
+    text-decoration:none;
+    text-align:right;
+    padding:15px 15px;
+    color:#ff6600;
+    border:1px solid #ff6600;
+    background-color:#ffffff;
+    position:absolute;
+    left:90%;
+    top:50%;
+    
+}
+
 .hamburger-menu{
     position:absolute;
     top:2px;
