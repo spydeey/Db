@@ -233,7 +233,7 @@ color:#ff7200;
 }
 @media screen and (max-width:930px){
     
-    nav.hamburger-menu{
+    nav .navbar .menu{
     
         display:initial;
     
@@ -280,12 +280,12 @@ color:#ff7200;
         border-radius:10px;
         
    }
-   nav .nav-list li{
+   nav .menu li{
        
        display:block;
        
    }
-   nav .nav-list li a{
+   nav .menu li a{
        
        display:block;
        text-align:center;
@@ -295,7 +295,7 @@ color:#ff7200;
        margin-bottom:40px;
        
    }
-   nav .nav-list li.lbtn a{
+   nav .menu li.lbtn a{
    
       position:absolute;
       bottom:0%;
@@ -304,7 +304,7 @@ color:#ff7200;
       padding:7px 15px;
       font-size:14px;
    }
-   nav .nav-list.open{
+   nav .menu.open{
        
        right: 0;
    }
